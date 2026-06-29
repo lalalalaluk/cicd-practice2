@@ -10,11 +10,11 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-      - name: Print greeting
+      - name: 打招呼
         run: echo "Hello GitHub Actions!"
-      - name: Print date
+      - name: 列印日期
         run: date
-      - name: Print runner info
+      - name: 列印主機訊息
         run: |
           uname -a
           pwd
