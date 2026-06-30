@@ -3,6 +3,7 @@ import time
 import pymysql
 from flask import Flask, jsonify
 
+
 app = Flask(__name__)
 
 def get_db_connection():
